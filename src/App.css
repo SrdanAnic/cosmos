@@ -1,0 +1,36 @@
+.background {
+  background-color: burlywood;
+}
+
+.navbar .navbar-brand p{
+  width: 168px;
+  margin-left: 20px;
+  margin-top: 6px;
+}
+
+
+.dashboard > .header {
+  width: 1937px;
+  height: 935.58px;
+  background-image: url('../public/dashboardHeader.png');
+}
+
+.dashboard > .dashboardPhone {
+  width: 832px;
+  height: 582px;
+  background-image: url('../public/dashboardPhone.png');
+}
+
+table {
+  font-size: 14px;
+}
+
+.background .blockP {
+  padding-left: 110px;
+}
+
+.block button{
+margin-right: 15px;
+width: 120px;
+height: min-content;
+}
