@@ -1,0 +1,26 @@
+.dashboard {
+    background-color: rgb(248, 239, 252);
+    padding: 25px 70px;
+}
+.icon {
+    width: 25px;
+}
+.chart-card {
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+}
+.strong {
+    font-weight: bold;
+}
+.fs-small {
+    font-size: 10px;
+}
+.btn-custom {
+    height: 40px;
+    background-color: blueviolet!important;
+    border-color: blueviolet!important;
+}
+.fs-12 {
+    font-size: 12px;
+}
