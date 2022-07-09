@@ -1,0 +1,56 @@
+.homepage {
+}
+.homepage .header_background {
+    background-image: url("./dashboardHeader.png");
+}
+.homepage .header {
+    margin-top: 50px;
+}
+.explorer_bg {
+    background-color: #f0efe7;
+    border-radius: 5px;
+}
+.homepage .title {
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+}
+.homepage .header_text {
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+}
+.account_btn {
+    width: 271px;
+    height: 60px;
+    font-size: 18px;
+    color: white;
+    background-color : #027AFF;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.header_img {
+    width: 700px;
+    height: 500px;
+}
+.homepage .body {
+    margin-top: 55px;
+    margin-bottom: 60px;
+}
+.homepage .text {
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.homepage .item_img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+.item_field {
+    border: 1px solid #C9C9C9;
+    padding: 20px 30px;
+}
