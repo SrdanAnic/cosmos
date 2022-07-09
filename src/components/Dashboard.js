@@ -1,17 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Header from './layout/Header';
+import Footer from './layout/Footer';
 
 const Dashboard = () => {
     return (
         <div className='dashboard'>
             <Header />
-            <div className='header'>
-
-            </div>
-            <div className = 'dashboardPhone'>
-
-            </div>
+            <Footer />
         </div>
     );
 }

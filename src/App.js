@@ -1,15 +1,35 @@
+
+import React from "react";
+import { 
+  BrowserRouter,
+  Routes,
+  Route, } from "react-router-dom";
 import Dashboard from './components/Dashboard';
-import Blocks from './components/blocks';
+import Blocks1 from './components/blocks1';
 import './App.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
-import '../node_modules/font-awesome/css/font-awesome.min.css';
-function App() {
+import Homepage from './components/Homepage';
+import Validators from "./components/Validators";
+import Blocks from './components/blocks';
+import Header from "./components/layout/Header";
+import Footer from "./components/layout/Footer";
+
+const App = () => {
+
   return (
     <div className="App">
-      <Blocks />
+      <Header />
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={ <Homepage />} />
+          <Route exact path="/validators" element={ <Validators />} />
+          <Route path="/blocks" element={ <Blocks />} />
+          <Route path="/blocks1" element={ <Blocks1 />} />
+          <Route path="/dashboard" element={ <Dashboard />} />
+        </Routes>
+      </BrowserRouter>
+      <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
