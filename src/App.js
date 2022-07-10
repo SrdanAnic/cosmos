@@ -5,6 +5,7 @@ import {
   Routes,
   Route, } from "react-router-dom";
 import Dashboard from './components/Dashboard';
+import Dashboard2 from './pages/Dashboard';
 import Blocks1 from './components/blocks1';
 import './App.css';
 import Homepage from './components/Homepage';
